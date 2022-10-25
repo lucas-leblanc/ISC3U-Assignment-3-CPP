@@ -10,19 +10,19 @@ using namespace std;
 int main() 
 {
     int side1, side2, side3;
-    cout << "\nPlease Enter Three Sides of a Triangle =  ";
+    cout << "\nInput length of the triangle sides:  ";
     cin >> side1 >> side2 >> side3;
 
     if (side1 == side2 && side2 == side3) 
     {
-        cout << "\nThis is an Equilateral Triangle\n";
+        cout << "\nEquilateral Triangle\n";
     }
     else if (side1 == side2 || side2 == side3 || side1 == side3)
     {
-        cout << "\nThis is an Isosceles Triangle\n";
+        cout << "\nIsosceles Triangle\n";
     } 
     else 
-    cout << "\nThis is a Scalene Triangle\n";
+    cout << "\nScalene Triangle\n";
 
     return 0;
     std::cout << "\n\n\nDone.\n";
